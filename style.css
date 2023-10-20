@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+font-family: serif;}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    line-height: 75px;
+    position: fixed;
+    padding: 0px 100px;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.home1{
+  display: flex;
+
+}
+.home-text{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(44, 116, 192);
+    
+
+}
+h1{
+   font-size: xx-large; 
+}
+.home-img{
+    width: 55%;
+}
+.we{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+.line{
+    border-left: 2px solid rgba(0, 0, 0, 0.26);
+    height: 100px;
+
+}
+.service{
+    height: 800px;
+    width: 100%;
+    margin-top: 60px;
+background: linear-gradient(rgb(44, 116, 192),rgb(75, 75, 190));
+}
+.flex-container{
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-box{
+    width: 600px;
+    height: 300px;
+    background: #fff;
+   border-radius: 5px;
+   margin: 10px;
+
+}
+h4{
+    line-height: 1.6;
+}
+.flex-container1{
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    justify-content: center;
+
+}
+.flexbox1{
+    
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+ 
+   margin: 10px;
+ 
+
+}
+.flex-container2{
+    padding-top: 30px;
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    
+    justify-content: center;
+
+}
+.flexbox2{
+   
+    width: 300px;
+    height: 150px;
+   margin-right: 50px;
+ background-color: aqua;
+ padding: 30px;
+margin-top: -59px;
+align-items: center;
+   /* margin: 50px; */
+
+}
+/* section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  /* .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    /* background-color: aqua; */
+  /* }
+  .left {
+    width: 50%;
+    height: 200px;
+   display: flex;
+    
+    border-radius: 8px;
+  } */ 
+  /* .right1{
+    width: 20%;
+    min-height: 200px;
+    background-color: #303137;
+   
+   
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -433px;
+    margin-top: 503px;
+  }
+  .right2{
+    width: 20%;
+    min-height: 200px;
+    background-color: #303137;
+
+   
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -433px;
+    margin-top: 503px;
+  }
+  .right3{
+    width: 20%;
+    min-height: 200px;
+    background-color: #303137;
+    
+    
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -433px;
+    margin-top: 503px;
+  } */
+
+
+  /* .right h1 {
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  .right p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  .right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 20px;
+    }
+    .left {
+      width: 100%;
+      height: 400px;
+    }
+    .right {
+      width: 90%;
+      margin: 0;
+      margin-top: -100px;
+    }
+  } */
+
+
+.con1{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -80px;
+  border: 1px solid black;
+   
+    
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.work{
+    display: flex;
+    margin-top: 120px;
+}
+.us{
+ position: absolute;
+ bottom: -2000px;
+ left: 26px;
+line-height: 1.6;
+margin-top: 10px;
+
+}
+.footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(44, 44, 125);
+    
+}
+.footer li{
+  
+    
+        display: inline-block;
+        list-style: none;
+        line-height: 75px;
+   
+}
+.footer li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cooky{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
